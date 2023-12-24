@@ -1,3 +1,8 @@
 #root {
-  background-color: #bdbdbd;
+  /*background-color: #bdbdbd;*/
+  background-image: url("./assets/snow-icegif-27.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
