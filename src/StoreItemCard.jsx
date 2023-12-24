@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 export const StoreItemCard = (props) => {
     return (
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '10rem' }}>
             {/* eslint-disable-next-line react/prop-types */}
             <Card.Img variant="top" src={props.img} />
             <Card.Body>

@@ -9,8 +9,6 @@ import img5 from './assets/hunchback_tool_imgs/img_5.png'
 import img6 from './assets/hunchback_tool_imgs/img_6.png'
 import {Col, Container, Row} from "react-bootstrap";
 
-import snowGif from './assets/snow-icegif-27.gif'
-
 function App() {
   return (
       <>
@@ -20,24 +18,35 @@ function App() {
                   <Col><StoreItemCard img={img0} title={"上肢牽引器"} text={"可以架設幫助改善駝背用之商品"}/></Col>
                   <Col><StoreItemCard img={img1} title={"上肢牽引器2"} text={"可以架設幫助改善駝背用之商品"}/></Col>
                   <Col><StoreItemCard img={img2} title={"駝背矯正帶1"} text={"可以架設幫助改善駝背用之商品"}/></Col>
-              </Row>
-              <Row>
                   <Col><StoreItemCard img={img3} title={"駝背矯正帶2"} text={"可以架設幫助改善駝背用之商品"}/></Col>
                   <Col><StoreItemCard img={img6} title={"駝背矯正帶3"} text={"可以架設幫助改善駝背用之商品"}/></Col>
                   <Col><StoreItemCard img={img5} title={"開肩矯正身姿"} text={"可以架設幫助改善駝背用之商品"}/></Col>
               </Row>
               <Row>
+                  <Col><StoreItemCard img={img3} title={"駝背矯正帶2"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img6} title={"駝背矯正帶3"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img5} title={"開肩矯正身姿"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img0} title={"上肢牽引器"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img1} title={"上肢牽引器2"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img2} title={"駝背矯正帶1"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+              </Row>
+              <Row>
                   <Col><StoreItemCard img={img6} title={"駝背矯正帶2"} text={"可以架設幫助改善駝背用之商品"}/></Col>
                   <Col><StoreItemCard img={img5} title={"駝背矯正帶3"} text={"可以架設幫助改善駝背用之商品"}/></Col>
                   <Col><StoreItemCard img={img4} title={"開肩矯正身姿"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img3} title={"駝背矯正帶2"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img2} title={"駝背矯正帶3"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img1} title={"開肩矯正身姿"} text={"可以架設幫助改善駝背用之商品"}/></Col>
               </Row>
               <Row>
                   <Col><StoreItemCard img={img3} title={"駝背矯正帶2"} text={"可以架設幫助改善駝背用之商品"}/></Col>
                   <Col><StoreItemCard img={img2} title={"駝背矯正帶3"} text={"可以架設幫助改善駝背用之商品"}/></Col>
                   <Col><StoreItemCard img={img1} title={"開肩矯正身姿"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img0} title={"上肢牽引器"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img1} title={"上肢牽引器2"} text={"可以架設幫助改善駝背用之商品"}/></Col>
+                  <Col><StoreItemCard img={img2} title={"駝背矯正帶1"} text={"可以架設幫助改善駝背用之商品"}/></Col>
               </Row>
           </Container>
-          <img src={snowGif} alt="loading..." />
       </>
   )
 }
